@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-    background-image: url('pexels-padrinan-19670.jpg');
+    background-image: url('./images/pexels-padrinan-19670.jpg');
     background-size: cover; 
     background-attachment: fixed; 
     background-repeat: no-repeat;
