@@ -91,6 +91,20 @@
     </form>
 </p></div>
     </div>
-        
+        <script>
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    const content = document.getElementById("content");
+
+    loader.style.opacity = 0; // Fade out
+    loader.style.transition = "opacity 0.5s ease";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+      document.body.classList.add("loaded"); // for opacity transition of content
+      content.style.display = "block";
+    }, 500);
+  });  
+  </script>
 </body>
 </html>
