@@ -87,6 +87,14 @@ input[type=submit]{
   padding: 10px;
   border-radius: 10px;
 
+
+  
+     
+  margin: 20px auto;
+  border: 1px solid #5b81eb;
+  
+}
+
 }
 .tab button {
   background-color:rgb(165, 136, 233);
