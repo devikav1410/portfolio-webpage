@@ -88,6 +88,13 @@ font-style: oblique;
 background-color: rgb(108, 128, 243);
 flex-wrap: wrap;
   align-items: center;
+
+  display: flex;
+ 
+  gap: 20px;
+  margin: 20px 0;
+
+
 }
 .tab button {
   background-color:rgb(165, 136, 233);
