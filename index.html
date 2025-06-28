@@ -1,114 +1,105 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <link rel="stylesheet" href="portfolio.css">
     </head>
 <body>
- <div class="loader">
+         <div class="loader">
   <img src="./images/l4.png">
- </div>
+         </div>
  <div id="content" style="display: none;">
 <h1>
     Hi,
     I'm Devika V
 </h1>
-
-<div class="tab">
+        <div class="tab">
   <a href="#section1"><button>skills</button>
-    <a href="#section2"><button>projects</button>
-     <a href="#section3"><button>contact</button></a>
-</div>
+  <a href="#section2"><button>projects</button>
+  <a href="#section3"><button>contact</button></a>
+        </div>
 <br>
 <br>
-<span>
-  <br>
-    <br>
-    <br>
+    <span>
+<br>
+<br>
+<br>
     
 <p>  Welcome to my portfolio! <br>
   I’m a passionate web developer dedicated to building clean, responsive, and user-friendly websites.<br>
    This space showcases my projects, creativity, and technical skills using HTML, CSS,C,C++,SQL,Python,JavaScript, and more.<br>
     Explore my work to see how I bring ideas to life through thoughtful design and efficient code.<br>
-        &nbsp; &nbsp; Currently I am a 2nd year student at Kannur University<br> pursuing 5 year integrated masters programme in Computational science.</p>
-    
-</span> 
+        &nbsp; &nbsp; Currently I am a 2nd year student at Kannur University<br> pursuing 5 year integrated masters programme in Computational science.
+</p>
+  </span> 
 <h2 id="section1">  </h2>
   <h2>Programming languages known</h2>
   <p>
     <div class="box1">
 <div class="row">
     <div class="column">
-    <img src="./images/coding (1).png">
+<img src="./images/coding (1).png">
      </div>
     <div class="column">
-    <img src="./images/letter-c.png">
+<img src="./images/letter-c.png">
      </div>
      <div class="column">
-    <img src="./images/sql-server.png">
+ <img src="./images/sql-server.png">
      </div>
-     
      <div class="column">
-    <img src="./images/c-logo.png">
+<img src="./images/c-logo.png">
     </div>
-     
-
   <div class="column">
-    <img src="./images/python.png">
+<img src="./images/python.png">
   </div>
-</div>
     </div>
+    </div>
+  </p>
     <h2 id="section2"></h2>
 <h2>Projects</h2>
-<a href="https://github.com/KUC-IT-Dept/FYIMP"><p>Click here</p></a>
-</p>
+<a href="https://github.com/KUC-IT-Dept/FYIMP">Click here</a>
+<br>
 <h2>Connect with me @</h2>
-<div class="row">
-  <div class="c1">
-   <a href="https://www.linkedin.com/in/devika-v-454287360/"> <img src="./images/linkedin.png" alt="Snow" style="width:100%"></a>
-  </div>
-  <div class="c1">
-    <a href="https://github.com/devikav1410"><img src="./images/github.png" alt="Forest" style="width:100%"></a>
-  </div>
-  <div class="c1">
-   <a href="https://www.instagram.com/moments_of_dev?igsh=MTJhbmtsdngzZ25sYQ=="> <img src="./images/instagram (1).png" alt="Mountains" style="width:100%"></a>
-  </div>
-</div>
-
-
-
+   <div class="row">
+   <div class="c1">
+<a href="https://www.linkedin.com/in/devika-v-454287360/"> <img src="./images/linkedin.png" alt="Snow" style="width:100%"></a>
+   </div>
+   <div class="c1">
+<a href="https://github.com/devikav1410"><img src="./images/github.png" alt="Forest" style="width:100%"></a>
+   </div>
+   <div class="c1">
+<a href="https://www.instagram.com/moments_of_dev?igsh=MTJhbmtsdngzZ25sYQ=="> <img src="./images/instagram (1).png" alt="Mountains" style="width:100%"></a>
+   </div>
+   </div>
+      <br>
 <h2 id="section3"></h2>
-
    <h2>Contact me</h2>  
    <div class="tabs">
-    <form action="https://formspree.io/f/mkgbzlwn"method="POST" >
+       <form action="https://formspree.io/f/mkgbzlwn"method="POST" >
        <label for="fname">Name:</label><br>
   <input type="text" id="fname" name="fname"><br>
       <label for="email">Email:</label><br>
   <input type="text" id="email" name="email"><br>
       <label for="sub">Subject:</label><br>
   <input type="text" id="sub" name="sub"><br> 
-     <label for="msg">Your message:</label><br> 
-   <textarea name="msg" rows="10" cols="20">type here </textarea>
+      <label for="msg">Your message:</label><br> 
+ <textarea name="msg" rows="10" cols="20">type here </textarea>
         <br>
-        <input type="submit"value="Send">
+ <input type="submit"value="Send">
     </form>
-</p></div>
-    </div>
+</div>
         <script>
   window.addEventListener("load", function () {
     const loader = document.querySelector(".loader");
     const content = document.getElementById("content");
-
     loader.style.opacity = 0; 
     loader.style.transition = "opacity 0.5s ease";
-
     setTimeout(() => {
       loader.style.display = "none";
       document.body.classList.add("loaded");
       content.style.display = "block";
     }, 1000);
   });  
-  </script>
+      </script>
 </body>
 </html>
